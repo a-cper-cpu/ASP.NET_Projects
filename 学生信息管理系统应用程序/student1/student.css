@@ -1,0 +1,54 @@
+BODY {
+	SCROLLBAR-FACE-COLOR:  #3179ce; FONT-SIZE: 12pt; SCROLLBAR-HIGHLIGHT-COLOR:  #3179ce; 
+	SCROLLBAR-SHADOW-COLOR:#afeeee; SCROLLBAR-3DLIGHT-COLOR:#afeeee; 
+	SCROLLBAR-ARROW-COLOR: #afeeee; SCROLLBAR-TRACK-COLOR: #71ADA4; 
+	SCROLLBAR-DARKSHADOW-COLOR: #f0f8ff}
+ 	div { font-size:12px }
+ 	td { font-size:13px }
+ 	A:LINK {font-size: 12px; color: #005700; text-decoration: none}
+ 	A:VISITED {font-size: 12px; color: #005700; text-decoration: none }
+ 	A:HOVER {font-size: 12px; color: blue; text-decoration: none}
+}
+TD {
+	FONT-SIZE: 12px;
+	
+
+
+}
+INPUT {
+	FONT-SIZE: 9pt; FONT-FAMILY: 宋体
+	BORDER-RIGHT: rgb(127,127,127) 1px solid;
+	BORDER-TOP: rgb(127,127,127) 1px solid;
+	FONT-SIZE: 9pt; 
+	BORDER-LEFT: rgb(127,127,127) 1px solid; 
+	BORDER-BOTTOM: rgb(127,127,127) 1px solid;
+	BACKGROUND-COLOR: #ffffff
+}
+BUTTON {
+	FONT-SIZE: 9pt; FONT-FAMILY: 宋体
+}
+SELECT {
+	FONT-SIZE: 9pt; FONT-FAMILY: 宋体
+}
+TEXTAREA {
+	FONT-SIZE: 9pt; FONT-FAMILY: 宋体
+}
+
+.topbar {
+	COLOR: #006600; PADDING-TOP: 2px
+}
+.topbar A:link {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.topbar A:visited {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.topbar A:hover {
+	COLOR: #cc3300; TEXT-DECORATION: underline
+}
+.tableBorder1
+{
+width:95%;
+border: 1px; 
+background-color: green ;
+}
