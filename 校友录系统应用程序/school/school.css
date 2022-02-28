@@ -1,0 +1,60 @@
+BODY {
+	MARGIN-TOP: 1px; FONT-SIZE: 12px; MARGIN-LEFT: 1px; FONT-FAMILY: "ËÎÌו"; BACKGROUND-COLOR: #ffffff
+}
+TD {
+	FONT-SIZE: 12px;
+	color: #005700;
+
+
+}
+INPUT {
+	FONT-SIZE: 9pt; FONT-FAMILY: ËÎÌו;
+	BORDER-RIGHT: rgb(127,127,127) 1px solid;
+	BORDER-TOP: rgb(127,127,127) 1px solid;
+	FONT-SIZE: 9pt; 
+	BORDER-LEFT: rgb(127,127,127) 1px solid; 
+	BORDER-BOTTOM: rgb(127,127,127) 1px solid;
+	BACKGROUND-COLOR: #ffffff
+}
+SELECT {
+	FONT-SIZE: 9pt
+}
+TEXTAREA {
+	FONT-SIZE: 9pt
+}
+BUTTON {
+	FONT-SIZE: 9pt
+}
+A:link {
+	COLOR: #006600;
+	text-decoration: none;
+
+}
+A:visited {
+	COLOR: #006600;
+	text-decoration: none;
+
+}
+A:hover {
+	COLOR: #ff3300;
+	text-decoration: none;
+
+}
+.topbar {
+	COLOR: #006600; PADDING-TOP: 2px
+}
+.topbar A:link {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.topbar A:visited {
+	COLOR: #006600; TEXT-DECORATION: none
+}
+.topbar A:hover {
+	COLOR: #cc3300; TEXT-DECORATION: underline
+}
+.tableBorder1
+{
+width:97%;
+border: 1px; 
+background-color: #0099cc;
+}
