@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ebook", "http://localhost/Ebook/Ebook.csproj", "{38CB31B6-41F9-420B-B8C0-927F1EC56F87}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{38CB31B6-41F9-420B-B8C0-927F1EC56F87}.Debug.ActiveCfg = Debug|.NET
+		{38CB31B6-41F9-420B-B8C0-927F1EC56F87}.Debug.Build.0 = Debug|.NET
+		{38CB31B6-41F9-420B-B8C0-927F1EC56F87}.Release.ActiveCfg = Release|.NET
+		{38CB31B6-41F9-420B-B8C0-927F1EC56F87}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

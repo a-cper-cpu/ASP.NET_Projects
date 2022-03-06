@@ -1,0 +1,53 @@
+BODY 
+{ BORDER-RIGHT: #ffffff 0px; background-color:White; BORDER-TOP: #ffffff 0px; SCROLLBAR-FACE-COLOR: #6371d6; FONT-SIZE: 9pt; BORDER-LEFT: #ffffff 0px; SCROLLBAR-SHADOW-COLOR: #ffffff; SCROLLBAR-3DLIGHT-COLOR: #6371d6; SCROLLBAR-ARROW-COLOR: #ffffff; BORDER-BOTTOM: #ffffff 0px; FONT-FAMILY: @ËÎÌו Arial; SCROLLBAR-DARKSHADOW-COLOR: #6371d6; BORDER-COLLAPSE: collapse }
+
+A:link {
+	COLOR:#2c6ed5; TEXT-DECORATION:none
+}
+A:visited {
+	COLOR:#2c6ed5; TEXT-DECORATION: none
+}
+A:active {
+	COLOR:Silver; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #0033cc; TEXT-DECORATION:underline overline
+}
+.textbox
+{
+	border-right: #3399ff 1px solid;
+	border-top: #3399ff 1px solid;
+	font-size: 9pt;
+	border-left: #3399ff 1px solid;
+	border-bottom: #3399ff 1px solid;
+	height: 20px;
+	background-color: whitesmoke;
+}
+.button
+{
+	border-right: #3399ff 1px solid;
+	border-top: #3399ff 1px solid;
+	font-size: 9pt;
+	border-left: #3399ff 1px solid;
+	border-bottom: #3399ff 1px solid;
+	height: 18px;
+	background-color: aliceblue
+}
+
+TD
+{
+	font-size: 9pt; height:22px
+	
+}
+tr
+{
+	font-size:9pt
+}
+.Label
+{
+	font-size:9pt; height:22px;}
+	
+TABLE
+{
+	background-color:White; font-size:9pt;
+}
