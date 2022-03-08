@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Trip", "http://localhost/Trip/Trip.csproj", "{3884A4DD-7F69-40F1-8344-F40E71C5F213}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3884A4DD-7F69-40F1-8344-F40E71C5F213}.Debug.ActiveCfg = Debug|.NET
+		{3884A4DD-7F69-40F1-8344-F40E71C5F213}.Debug.Build.0 = Debug|.NET
+		{3884A4DD-7F69-40F1-8344-F40E71C5F213}.Release.ActiveCfg = Release|.NET
+		{3884A4DD-7F69-40F1-8344-F40E71C5F213}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
