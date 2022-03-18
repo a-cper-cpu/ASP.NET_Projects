@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/DataBindingPage.aspx" title="数据绑定"  description="">      
+        <siteMapNode url="AccessDS.aspx" title="Access数据源"  description="" />
+        <siteMapNode url="ObjectDS.aspx" title="Object数据源"  description="" />
+        <siteMapNode url="SqlDS.aspx" title="Sql数据源"  description="" />
+        <siteMapNode url="XmlDS.aspx" title="Xml数据源"  description="" />
+        <siteMapNode url="SiteMapDS.aspx" title="SiteMap数据源"  description="" />        
+    </siteMapNode>
+</siteMap>

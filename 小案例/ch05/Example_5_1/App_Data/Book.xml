@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Bookstore>
+  <genre name="Business">
+    <book ISBN="BU1032" Title="The Busy Executive's Database Guide" Price="19.99">
+      <chapter num="1" name="Introduction">
+        Abstract...
+      </chapter>
+      <chapter num="2" name="Body">
+        Abstract...
+      </chapter>
+      <chapter num="3" name="Conclusion">
+        Abstract...
+      </chapter>
+    </book>
+    <book ISBN="BU2075" Title="You Can Combat Computer Stress!" Price="2.99">
+      <chapter num="1" name="Introduction">
+        Abstract...
+      </chapter>
+      <chapter num="2" name="Body">
+        Abstract...
+      </chapter>
+      <chapter num="3" name="Conclusion">
+        Abstract...
+      </chapter>
+    </book>
+    <book ISBN="BU7832" Title="Straight Talk About Computers" Price="19.99">
+      <chapter num="1" name="Introduction">
+        Abstract...
+      </chapter>
+      <chapter num="2" name="Body">
+        Abstract...
+      </chapter>
+      <chapter num="3" name="Conclusion">
+        Abstract...
+      </chapter>
+    </book>
+  </genre>
+</Bookstore>
+
