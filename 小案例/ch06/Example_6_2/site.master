@@ -1,0 +1,34 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="site.master.cs" Inherits="site" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>无标题页</title>
+</head>
+<body>
+    <form id="form1" runat="server">
+    <div>
+		<table width="100%">
+			<tr>
+				<td colspan="2"><asp:contentplaceholder id="Header" runat="server">
+						<asp:Label ID="HeaderLabel" runat="server"></asp:Label>
+				    </asp:contentplaceholder></td>
+			</tr>
+			<tr>
+				<td style="width: 20%;" valign="top">
+					 <a href="Default.aspx">Default</a><br/>
+                    <a href="sun.aspx">Sun</a><br/>
+                    <a href="Bluehills.aspx">Blue hills</a><br/>                   
+				</td>
+				<td valign="top" align="left" style="width: 240px; height: 180px;">
+					<asp:ContentPlaceHolder ID="Picture" runat="server">
+						<asp:Image ID="Flower" runat="server"  ImageUrl="Images/Water lilies.jpg" Height="180px" Width="240px" /></asp:ContentPlaceHolder>
+				</td>
+			</tr>
+		</table>
+        
+    </div>
+    </form>
+</body>
+</html>
