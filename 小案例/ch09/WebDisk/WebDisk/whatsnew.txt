@@ -1,0 +1,466 @@
+LeapFTP v2.7.5.610                        Released: 08/06/2004
+--------------------------------------------------------------
+
+
+		  Version History
+
+Version 2.75
+------------
+
+1. Added support for files > 2.1 GB
+
+2. Added Windows XP control support
+
+3. Fixed LeapFTP getting stuck on file complete
+
+4. Fixed PBD3 server parsing
+
+5. Fixed tray icon disappearing on explorer restart
+
+6. Minor interface tweaks
+
+
+LeapFTP 2.74
+------------
+
+1. Fixed buffer overflow exploit when PASV mode is used
+
+
+LeapFTP 2.73
+-------------
+
+1. Fixed 'Edit' spawning both default editor and extension-
+   specific editor
+
+2. Fixed problem where resizing status window would lock
+   the program
+
+3. Fixed clipboard not working properly with LeapFTP running
+
+4. Fixed problem with 'resume if smaller' skipping uploads
+   that were actually smaller
+
+5. Fixed system tray icon disappearing when you select 'exit'
+   from the tray menu but do not close due to a pending transfer
+
+6. Fixed "Copy URL" not working correctly for ports other than 21
+
+
+LeapFTP 2.72
+------------
+
+1. Added per-site option to disable use of proxy server
+
+2. Added "USER user@host port" proxy mode
+
+3. Fixed scripts / DDE not handling CONNECT properly
+
+4. Fixed column sizing bug
+
+5. Fixed status bar truncating text when using large fonts
+
+6. Fixed restore broken transfers overwriting instead of
+   resuming partial file transfers
+
+
+LeapFTP 2.71
+------------
+
+1. Added support for long filenames in command line parameters
+   that are enclosed in quotes.
+
+2. Added data=<path> command line parameter that allows you to
+   specify a directory where configuration files are stored. 
+
+3. Added support for % tokens in ftp:// URLs
+
+4. Added global and per-site option to use APPE instead of REST
+   when resuming uploads.
+
+5. Fixed certain sites crashing on connect
+
+6. Fixed 'Execute' not working properly with certain file types
+
+7. Fixed upload crashing on connection abort
+
+8. Fixed queue save dialog not expanding for Large fonts
+
+9. Fixed reconnect not working properly
+
+10. Fixed queue 'Move to Top' error
+
+11. Fixed transfer status bar not resizing
+
+12. Fixed crash on DEL script command
+
+13. Fixed system using wrong password on aborted connections
+
+14. Fixed SendTo not using correct default path
+
+
+LeapFTP 2.70
+------------
+
+1. Transfer engine reworked for substantially faster uploads
+
+2. Online help system completely revamped and updated
+
+3. New queue format added that allows you to save a queue
+   to a specific server
+
+4. Added /nosplash command line argument to supress splash screen
+
+5. Full drag now supported in queue.  Added move to top and move to
+   bottom menu options
+
+6. Server and directory message dialog is now resizable
+
+7. Column widths are saved when auto size is disabled
+
+8. New per-site option to toggle / disable resume support
+
+9. S/Key is now supported for site manager based sites
+
+10. Option added to toggle auto-negotiation of PASV / PORT mode
+
+11. Fixed problem with editing files with long filenames
+
+12. Fixed 'owner' not resolving on NT servers
+
+13. Fixed scripts hanging on connection failure
+
+14. Fixed resume problem with aborted uploads
+
+15. Fixed exit windows on transfer complete not working correctly
+
+
+LeapFTP 2.62
+------------
+
+1. Added stall protection to Advanced Properties tab
+
+2. Added ability to log in FTP servers that do not require a
+   password.
+
+3. Fixed parsing of wftpd and Windows 2000 directory listings
+
+4. Added anti-idle method toggle (NOOP or PWD)
+
+5. Skip list can now be applied to folders as well as files
+
+6. Added ability to transfer files without extensions in ASCII
+   mode.
+
+7. Fixed problems with cut/paste intercepting external calls.
+
+8. Added auto-attempt of PASV mode if a PORT command fails.
+
+9. Fixed failed downloads leaving a 0-byte file behind.
+
+10. Fixed force file case to work with folders and files.
+
+
+LeapFTP 2.61
+------------
+
+1. Fixed window redraw problem.
+
+2. Fixed timeout and retry not saving in site manager.
+
+3. Fixed other misc problems.
+
+
+LeapFTP 2.60
+------------
+
+1.  Fixed display problem.
+
+2.  fixed URL port problem.
+
+3.  Fixed add site port problem.
+
+4.  Added ":" not allowed in site name.
+
+5.  Added save history option.
+
+6.  Fixed Password dropdown.
+
+7.  Added save log to disk.
+
+8.  Fixed CHMOD from properties refreshes directory.
+
+9.  Added Resume if smaller option.
+
+10. Added optional timer for duplicate file dialog.
+
+11. Fixed Auto-refresh problems.
+
+12. Added remember last sorting method.
+
+13. Added option to fake parent on network drives.
+
+14. Fixed clipboard copy problem.
+
+15. Added server type for unix filesystems with spaces in filenames.
+
+16. Fixed URL file size.
+
+17. Added Exit windows on transfer complete option.
+
+18. Fixed directory change to root problem.
+
+19. Added site/group delete fixed.
+
+20. Fixed abort for warftpd servers.
+
+21. Flat button style was removed.  Has been problematic from day one.
+
+LeapFTP 2.52
+------------
+
+1. Added PASV mode on a per-site basis.  If you are having problems
+   with transfers getting hung at the end, you should turn off
+   PASV mode.
+
+2. Added Folder bookmarks.  Allows you to have pointers to folders
+   for sites in the site manager.
+
+3. Added ability to drag files within the queue to change the transfer
+   order.
+
+4. Dropdown history now hides passwords.
+
+5. Fixed several problems with editing the first queue item
+   during transfer.  You can no longer edit the target of the
+   first item or clear the queue once a transfer is in progress.
+
+6. Fixed a problem with PASV having a space in the argument.
+
+7. Fixed URLs not properly resolving non-standard ports.
+
+
+
+LeapFTP 2.51
+------------
+A maintenance release of version 2.50.  The folllowing changes
+were made:
+
+1.  Fixed remote path dropdown not changing directory
+
+2.  Fixed site manager crash
+
+3.  Fixed site move not working properly
+
+4.  Fixed problem with directory lists not showing up under some
+    circumstances
+
+5.  Fixed problem with PASV and LIST -al
+
+6.  Fixed server message box appearing when no messages 
+
+7.  Added several new scipting commands
+
+8.  Fixed crash when getting properties on ".."
+
+9.  Fixed "Execute" problem
+
+10. Fixed problem with editing binary files
+
+11. Fixed Edit/View not working with certain file types
+
+12. Added PUTDEL script command.  Allows you to delete a local
+    file after if it has been successfully uploaded.
+
+13. Added ".." toolbar button
+
+14. Added "Copy URL to Clipboard" to Tools menu
+
+15. Directory listings now show total bytes
+
+
+LeapFTP 2.50
+------------
+
+This version represents a major overhaul in LeapFTP.  Several 
+looming problems have been fixed, and many routines were 
+completely rewritten to make them faster.
+
+1. Remote directory routine has been completely rewritten.
+   Listings are now processed as they come in instead of
+   when they're done.
+
+
+2. Auto-redial routines have been rewritten.  There is a new
+   option in the "Options" tab in the preferences called
+   'Use external redialer'.  Set this option if you have an
+   external program that redials your ISP upon disconnect.  If
+   this option is not enabled, LeapFTP will automatically reconnect
+   to your ISP.  
+
+3. Fixed a problem with transfers and directory listings
+   ending up short.
+
+4. Queue now stores the filename for the target file, allowing you
+   to change the destination filename.
+
+5. Free space routine now prompts when there is not enough
+   freespace for the currect file.
+
+6. Added "Clear Login History" to Tools menu.
+
+7. Free space is now shown only on fixed disks.
+
+8. Fixed crash when scrolling through status window.
+
+9. Fixed problem when Retry Delay was set to 0.
+
+10. CHMOD now refreshes when complete.
+
+11. Fixed problem with login/server messages not displaying properly
+    or at all.
+
+12. Scripting language commands GET and PUT now support a target filename
+    syntax.
+
+	GET:<filename>:<target>
+	PUT:<filename>:<target>
+
+13. Scripting language now supports comments.  Place a # as the first character
+    in a line to ignore that line.
+
+	# comment
+	CONNECT:127.0.0.1
+
+
+LeapFTP 2.42
+------------
+1. Bug fixes
+
+
+LeapFTP 2.3
+-----------
+
+1. Added site stats which records the amount of data sent
+   to servers in the site manager.
+
+2. Added Microsoft Intellimouse support.
+
+3. Added clipboard URL monitor.
+
+4. Added command line parms.
+
+5. Help file is now indexed and searchable.
+
+6. Numerous bug files (crashes during login, memory leak, transfer
+   errors, etc).
+
+LeapFTP 2.2
+-----------
+
+1. Added separate toggles for duplicate files on download
+   and upload
+
+2. Optional separate window now shows server and/or directory
+   messages
+
+3. Fixed several problems in 2.1X
+
+
+LeapFTP 2.1
+-----------
+
+1. The scripting language has been completely rewritten.
+   Scripts are now compiled into memory and checked for
+   errors before they are run.  Several new commands have
+   been added:
+
+	DIAL:<entry>     		dial your ISP
+   	RENAME-<L/R>:<filename>		rename a file
+	REFRESH				refresh remote view
+	DELAY:<seconds>			waits x secs before
+					executing the next
+					command
+
+   Loops are also supported.  They should be in the following
+   syntax:
+
+	LOOP:<number of times>
+	<command(s)>
+	ENDLOOP
+
+   Note: You cannot nest loops (ie: a loop in a loop).
+
+2. Upload resume has been added.  The duplicate file option
+   in Preferences|Transfer now applies to uploads as well.
+
+3. A 'Site Browse' option has been added.  This allows you
+   to browse a FTP server while transferring and add files
+   to the queue. It uses a second connection to browse, so
+   you must be able to connect to the site twice for this
+   to work.
+
+4. The file editor(s) are now configurable by file extension.  Use the
+   'Editors' tab in the Preferences to set file extensions and editor
+   to use.  If no editor is specified, the default editor will be used.
+
+5. Several new firewall types are supported:
+
+	SOCKS4
+	SITE host
+	OPEN host
+	PASV transfers
+
+6. Reworked the 'Auto-reconnect' feature.  Now supports redialing
+   of ISP and seamless resuming of the transfer queue.
+
+7. The "Skip List" has been added, which has a list of wildcard
+   masks for filetypes you wish to skip in a transfer.
+
+8. Supports SendTo->LeapFTP from the windows shell and dropping
+   of files onto the program icon to add the files to the
+   queue.  New 'Target file' notation for uploads: ~/ denotes
+   upload to current directory.
+
+9. Shows status of receiving directory listing, and transfer
+   speed after all transfers.
+
+10. Added more per-site options to the site manager:
+
+   Local filter 
+   Remote filter
+   Server type
+   Show hidden files
+
+11. Duplicate file dialog now has "Skip All" button to skip all
+    duplicate files in the current transfer.
+
+12. Free Space monitor warns when there is not enough space on the drive
+    to download the current file.
+
+13. Local file delete is now interfaced to the Recycle Bin.
+
+14. Added 'Transfer' tab to Preferences, with all transfer-related
+    options.  Two new options have been added:
+
+	Skip empty dirs 	Prevents creating directories when
+				there are no files inside
+
+	Skip 0-byte files	Prevents transferring of null files.
+
+15. Rename Site option for sites in the Site Manager.
+
+16. System tray menu: right clicking on LeapFTP when minimized
+    in the system tray brings up a menu of options.
+
+17. Added warning when exiting with queued files.
+
+18. Delete and Chmod commands now show files remaining.
+
+19. Bytes selected is now shown below the directory view.
+
+20. Ctrl+C and Ctrl+V have been reassigned to their default
+    functions (copy/paste).
+
+21. Option to show speed in cps or k/sec.
+
+22. Delay before retry option added

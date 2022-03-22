@@ -1,0 +1,190 @@
+<?xml version="1.0" standalone="yes"?>
+<DataSetTasks xmlns="http://tempuri.org/DataSetTasks.xsd">
+  <xs:schema id="DataSetTasks" targetNamespace="http://tempuri.org/DataSetTasks.xsd" xmlns:mstns="http://tempuri.org/DataSetTasks.xsd" xmlns="http://tempuri.org/DataSetTasks.xsd" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" attributeFormDefault="qualified" elementFormDefault="qualified">
+    <xs:element name="DataSetTasks" msdata:IsDataSet="true" msdata:Locale="en-US">
+      <xs:complexType>
+        <xs:choice minOccurs="0" maxOccurs="unbounded">
+          <xs:element name="Tasks">
+            <xs:complexType>
+              <xs:sequence>
+                <xs:element name="TaskID" msdata:ReadOnly="true" msdata:AutoIncrement="true" type="xs:int" />
+                <xs:element name="ProjectID" type="xs:int" />
+                <xs:element name="ModifiedBy" type="xs:int" />
+                <xs:element name="AssignedTo" type="xs:int" />
+                <xs:element name="TaskSummary" type="xs:string" />
+                <xs:element name="TaskDescription" type="xs:string" />
+                <xs:element name="PriorityID" type="xs:int" />
+                <xs:element name="StatusID" type="xs:int" />
+                <xs:element name="Progress" type="xs:int" />
+                <xs:element name="IsDeleted" type="xs:boolean" />
+                <xs:element name="DateDue" type="xs:dateTime" />
+                <xs:element name="DateModified" type="xs:dateTime" />
+                <xs:element name="DateCreated" type="xs:dateTime" />
+                <xs:element name="PriorityText" type="xs:string" />
+                <xs:element name="StatusText" type="xs:string" />
+                <xs:element name="AssignedToText" type="xs:string" />
+                <xs:element name="ModifiedByText" type="xs:string" />
+              </xs:sequence>
+            </xs:complexType>
+          </xs:element>
+        </xs:choice>
+      </xs:complexType>
+      <xs:unique name="DataSetTasksKey1" msdata:PrimaryKey="true">
+        <xs:selector xpath=".//mstns:Tasks" />
+        <xs:field xpath="mstns:TaskID" />
+      </xs:unique>
+    </xs:element>
+  </xs:schema>
+  <Tasks>
+    <TaskID>85402</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26533</ModifiedBy>
+    <AssignedTo>26534</AssignedTo>
+    <TaskSummary>Application requires testing.</TaskSummary>
+    <TaskDescription>&lt;Sample Description&gt;</TaskDescription>
+    <PriorityID>1</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>25</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:00:00.453+08:00</DateDue>
+    <DateModified>2006-03-12T12:00:00.453+08:00</DateModified>
+    <DateCreated>2006-03-12T12:00:00.453+08:00</DateCreated>
+    <PriorityText>Medium</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>Admin</AssignedToText>
+    <ModifiedByText>John Doe</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85403</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26533</ModifiedBy>
+    <AssignedTo>26534</AssignedTo>
+    <TaskSummary>Photocopier Jammed.</TaskSummary>
+    <TaskDescription>&lt;Sample Description&gt;</TaskDescription>
+    <PriorityID>2</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>0</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:00:00.47+08:00</DateDue>
+    <DateModified>2006-03-12T12:00:00.47+08:00</DateModified>
+    <DateCreated>2006-03-12T12:00:00.47+08:00</DateCreated>
+    <PriorityText>Major</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>Admin</AssignedToText>
+    <ModifiedByText>John Doe</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85404</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26534</ModifiedBy>
+    <AssignedTo>26533</AssignedTo>
+    <TaskSummary>Website error appearing.</TaskSummary>
+    <TaskDescription>&lt;Sample Description&gt;</TaskDescription>
+    <PriorityID>3</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>0</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:00:00.47+08:00</DateDue>
+    <DateModified>2006-03-12T12:00:00.47+08:00</DateModified>
+    <DateCreated>2006-03-12T12:00:00.47+08:00</DateCreated>
+    <PriorityText>Minor</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>John Doe</AssignedToText>
+    <ModifiedByText>Admin</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85405</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26534</ModifiedBy>
+    <AssignedTo>26533</AssignedTo>
+    <TaskSummary>Computer broken.</TaskSummary>
+    <TaskDescription>&lt;Sample Description&gt;.</TaskDescription>
+    <PriorityID>1</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>25</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:00:00.47+08:00</DateDue>
+    <DateModified>2006-03-12T12:00:00.47+08:00</DateModified>
+    <DateCreated>2006-03-12T12:00:00.47+08:00</DateCreated>
+    <PriorityText>Medium</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>John Doe</AssignedToText>
+    <ModifiedByText>Admin</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85406</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26534</ModifiedBy>
+    <AssignedTo>26533</AssignedTo>
+    <TaskSummary>Consumer complaint.</TaskSummary>
+    <TaskDescription>&lt;Sample Description&gt;</TaskDescription>
+    <PriorityID>2</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>100</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:00:00.483+08:00</DateDue>
+    <DateModified>2006-03-12T12:00:00.483+08:00</DateModified>
+    <DateCreated>2006-03-12T12:00:00.483+08:00</DateCreated>
+    <PriorityText>Major</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>John Doe</AssignedToText>
+    <ModifiedByText>Admin</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85407</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26533</ModifiedBy>
+    <AssignedTo>26534</AssignedTo>
+    <TaskSummary>Bug found.</TaskSummary>
+    <TaskDescription>&lt;Sample Description&gt;</TaskDescription>
+    <PriorityID>3</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>100</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:00:00.483+08:00</DateDue>
+    <DateModified>2006-03-12T12:00:00.483+08:00</DateModified>
+    <DateCreated>2006-03-12T12:00:00.483+08:00</DateCreated>
+    <PriorityText>Minor</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>Admin</AssignedToText>
+    <ModifiedByText>John Doe</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85408</TaskID>
+    <ProjectID>26195</ProjectID>
+    <ModifiedBy>26533</ModifiedBy>
+    <AssignedTo>26533</AssignedTo>
+    <TaskSummary>test</TaskSummary>
+    <TaskDescription>test</TaskDescription>
+    <PriorityID>1</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>50</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T12:21:11.907+08:00</DateDue>
+    <DateModified>2006-03-12T12:21:36.593+08:00</DateModified>
+    <DateCreated>2006-03-12T12:21:26.41+08:00</DateCreated>
+    <PriorityText>Medium</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>John Doe</AssignedToText>
+    <ModifiedByText>John Doe</ModifiedByText>
+  </Tasks>
+  <Tasks>
+    <TaskID>85409</TaskID>
+    <ProjectID>26196</ProjectID>
+    <ModifiedBy>26533</ModifiedBy>
+    <AssignedTo>26533</AssignedTo>
+    <TaskSummary>qwe</TaskSummary>
+    <TaskDescription>qweq</TaskDescription>
+    <PriorityID>1</PriorityID>
+    <StatusID>1</StatusID>
+    <Progress>0</Progress>
+    <IsDeleted>false</IsDeleted>
+    <DateDue>2006-03-12T13:16:13.233+08:00</DateDue>
+    <DateModified>2006-03-12T13:16:42.263+08:00</DateModified>
+    <DateCreated>2006-03-12T13:16:42.263+08:00</DateCreated>
+    <PriorityText>Medium</PriorityText>
+    <StatusText>Open</StatusText>
+    <AssignedToText>John Doe</AssignedToText>
+    <ModifiedByText>John Doe</ModifiedByText>
+  </Tasks>
+</DataSetTasks>
