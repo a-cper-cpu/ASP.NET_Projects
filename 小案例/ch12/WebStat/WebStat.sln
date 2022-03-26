@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 9.00
+# Visual Studio 2005
+Project("{E24C65DC-7377-472B-9ABA-BC803B73C61A}") = "D:\asp.net2.0prime\WebStat\", ".", "{F02248F4-A15E-40F9-B151-0F20A60B8177}"
+	ProjectSection(WebsiteProperties) = preProject
+		Debug.AspNetCompiler.VirtualPath = "/WebStat"
+		Debug.AspNetCompiler.PhysicalPath = "D:\asp.net2.0prime\WebStat\"
+		Debug.AspNetCompiler.TargetPath = "PrecompiledWeb\WebStat\"
+		Debug.AspNetCompiler.Updateable = "true"
+		Debug.AspNetCompiler.ForceOverwrite = "true"
+		Debug.AspNetCompiler.FixedNames = "false"
+		Debug.AspNetCompiler.Debug = "True"
+		Release.AspNetCompiler.VirtualPath = "/WebStat"
+		Release.AspNetCompiler.PhysicalPath = "D:\asp.net2.0prime\WebStat\"
+		Release.AspNetCompiler.TargetPath = "PrecompiledWeb\WebStat\"
+		Release.AspNetCompiler.Updateable = "true"
+		Release.AspNetCompiler.ForceOverwrite = "true"
+		Release.AspNetCompiler.FixedNames = "false"
+		Release.AspNetCompiler.Debug = "False"
+		VWDPort = "1667"
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|.NET = Debug|.NET
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F02248F4-A15E-40F9-B151-0F20A60B8177}.Debug|.NET.ActiveCfg = Debug|.NET
+		{F02248F4-A15E-40F9-B151-0F20A60B8177}.Debug|.NET.Build.0 = Debug|.NET
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
